@@ -1,18 +1,97 @@
 <!DOCTYPE html>
-<html lang en>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewpoint"content="width=device-width, initial-scale=1.0">
-    <title>Anime Data</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISync</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        nav {
+            background-color: #ddd;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .content {
+            text-align: center;
+            padding: 2em;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        .logo img {
+            max-width: 50px;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <h1>Anime Data</h1>
-    <ul>
-        {%for anime in anime_data%}
-        <li> {{anime.title }} - Popularity: {{anime.popularity}}, Rating: {{anime.rating}}</li>
-        {% endfor %}
-    </ul>
-</body>
+    <header>
+        <h1>idolsync</h1>
+    </header>
 
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#ratings">Ratings</a>
+        <a href="#fandom">Fandom Tracker</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <div class="logo">
+        <!-- Add your logo images here -->
+        <img src="logo1.png" alt="Logo 1">
+        <img src="logo2.png" alt="Logo 2">
+    </div>
+
+    <div class="content">
+        <!-- Add your center image here -->
+        <img src="center_image.jpg" alt="Center Image">
+    </div>
+
+    <footer>
+        &copy; 2024 IdolSync. All rights reserved.
+    </footer>
+</body>
 </html>
+
