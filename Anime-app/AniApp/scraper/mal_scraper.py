@@ -4,7 +4,6 @@ def scrape_mal_data(anime_url):
    
     response = requests.get(anime_url)
 
-  
     if response.status_code == 200:
         # Parse the JSON data
         data = response.json()
