@@ -1,10 +1,10 @@
 # IdolSync-Fandom-Explorer
  Tracks the activities of the 4 of the largest joseimuke music anime fandoms on Tumblr. Among other things.
- Shows: 
- Hypnosis Mic
- Paradox Live
- Idolish7
- Enstars
+ ## Shows: 
+- Hypnosis Mic
+- Paradox Live
+- Idolish7
+- Enstars
  
  # Ratings:
  See how your favorite shows are rated across three websites.
