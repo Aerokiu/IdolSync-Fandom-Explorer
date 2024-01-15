@@ -1,5 +1,5 @@
 # IdolSync-Fandom-Explorer
- Tracks the activities of the four largest Joseimuke music anime fandoms on Tumblr. Among other things.
+ Tracks the activities of four the largest Joseimuke music anime fandoms on Tumblr. Among other things.
  ## Shows: 
 - Hypnosis Mic
 - Paradox Live
