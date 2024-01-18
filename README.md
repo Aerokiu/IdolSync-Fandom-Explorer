@@ -1,5 +1,8 @@
 # IdolSync-Fandom-Explorer
- Tracks the activities of the 4 of the largest joseimuke music anime fandoms on Tumblr. Among other things.
+ Tracks the activities of four of the largest Joseimuke music anime fandoms on Tumblr. Among other things.
+
+**Development status:** Active Development.
+
  ## Shows: 
 - Hypnosis Mic
 - Paradox Live
@@ -10,4 +13,4 @@
  See how your favorite shows are rated across three websites.
 
  # Fandom Tracker:
- Track the popularity of your favorite characters on Tumblr in real time.
+ Track the popularity of your favorite characters on Tumblr in real-time.
