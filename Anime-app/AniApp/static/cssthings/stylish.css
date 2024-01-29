@@ -1,5 +1,6 @@
-body {
-    font-family: Arial, sans-serif;
+body
+{
+   font-family : Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -14,24 +15,25 @@ header {
     height: 30px;
 }
 
-h1{
-    margin:0;
-}
-
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1em;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
 
+h1{
+    margin:0;
+}
+
+
 nav {
     background-color: #ddd;
     text-align: left;
-    padding: 20px;
+    padding: 25px;
 }
 
 nav a {
@@ -40,25 +42,56 @@ nav a {
     color: #333;
 }
 
-.content {
+#showcase nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#welcome_ {
     text-align: center;
-    padding: 2em;
+    font-size: 200px;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.logo {
+showcase nav span
+{
     position: absolute;
-    top: 5px;
-    left: 5px;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 205px;
 }
 
-.logo img {
-    max-width: 5px;
-    height: auto;
+ul
+{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
+
+#showcase i[class^=icon-] {
+    line-height: 32px;
+    width: 64px;
+    height: 64px;
+    background-color: #aaa;
+    float: left;
+    margin-top: 4px;
+    margin-right: 8px;
+}
+
+.icon-mg {
+    background-position: 0 -42px;
+}
+
+[class^=icon-], [class*=' icon-'] {
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-image: url(/static/images/rategraph.png);
+}
+ 
