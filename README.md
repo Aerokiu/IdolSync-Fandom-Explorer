@@ -12,5 +12,5 @@
  # Ratings:
  See how your favorite shows are rated across three websites.
 
- # Fandom Tracker:
- Track the popularity of your favorite characters on Tumblr in real-time.
+ # Character Viewer:
+Track the activities of your favorite characters and buy them roses!
