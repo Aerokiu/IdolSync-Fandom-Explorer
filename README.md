@@ -1,5 +1,5 @@
 # IdolSync-Fandom-Explorer
- Tracks the activities of four of the largest Joseimuke music anime fandoms on Tumblr. Among other things.
+ 2d project anime type beat
 
 **Development status:** Active Development.
 
