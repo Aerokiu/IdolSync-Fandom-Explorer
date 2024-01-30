@@ -14,3 +14,11 @@
 
  # Character Viewer:
 Track the activities of your favorite characters and buy them roses!
+
+# Birthday Calender:
+Never forget your idol's birthday again, thanks to this giant all encompassing calendar.
+
+# Minigames:
+<<Coming Soon>>
+
+
